@@ -107,8 +107,8 @@ export const TravelMemoryCard: React.FC<TravelMemoryCardProps> = ({ userName, on
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/ScMzIvxBSi4"
-                  title="Recuerdos de Viaje"
+                  src="https://www.youtube.com/embed/5tRNJ12nSIY"
+                  title="Maravillas del Caribe - Islas Más Hermosas del Caribe"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

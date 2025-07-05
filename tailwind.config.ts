@@ -61,7 +61,32 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'warm-sunset': {
+					DEFAULT: 'hsl(var(--warm-sunset))',
+					foreground: 'hsl(var(--warm-sunset-foreground))'
+				},
+				'golden-sand': {
+					DEFAULT: 'hsl(var(--golden-sand))',
+					foreground: 'hsl(var(--golden-sand-foreground))'
+				},
+				'tropical-teal': {
+					DEFAULT: 'hsl(var(--tropical-teal))',
+					foreground: 'hsl(var(--tropical-teal-foreground))'
+				},
+				'exotic-coral': {
+					DEFAULT: 'hsl(var(--exotic-coral))',
+					foreground: 'hsl(var(--exotic-coral-foreground))'
 				}
+			},
+			backgroundImage: {
+				'gradient-sunset': 'var(--gradient-sunset)',
+				'gradient-travel': 'var(--gradient-travel)',
+				'gradient-memory': 'var(--gradient-memory)'
+			},
+			boxShadow: {
+				'warm': 'var(--shadow-warm)',
+				'memory': 'var(--shadow-memory)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

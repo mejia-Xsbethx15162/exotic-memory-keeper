@@ -8,33 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 28 25% 97%;
+    --foreground: 20 14.3% 4.1%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 20 14.3% 4.1%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 20 14.3% 4.1%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 24 9.8% 10%;
+    --primary-foreground: 60 9.1% 97.8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 25 5.3% 44.7%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 60 9.1% 97.8%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 24 5.7% 82.9%;
+
+    /* Warm travel colors */
+    --warm-sunset: 25 85% 65%;
+    --warm-sunset-foreground: 0 0% 100%;
+    --golden-sand: 45 75% 75%;
+    --golden-sand-foreground: 20 14.3% 4.1%;
+    --tropical-teal: 180 84% 35%;
+    --tropical-teal-foreground: 0 0% 100%;
+    --exotic-coral: 15 86% 65%;
+    --exotic-coral-foreground: 0 0% 100%;
+
+    /* Gradients */
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--warm-sunset)), hsl(var(--exotic-coral)));
+    --gradient-travel: linear-gradient(135deg, hsl(var(--tropical-teal)), hsl(var(--golden-sand)));
+    --gradient-memory: linear-gradient(180deg, hsl(var(--background)), hsl(var(--warm-sunset) / 0.1));
+
+    /* Shadows */
+    --shadow-warm: 0 10px 30px -10px hsl(var(--warm-sunset) / 0.3);
+    --shadow-memory: 0 20px 40px -15px hsl(var(--tropical-teal) / 0.2);
 
     --radius: 0.5rem;
 
